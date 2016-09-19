@@ -4,6 +4,8 @@ iTunes style color fetcher for UIImage. This is an *almost* identical port of [P
 
 In other words, it fetches the most dominant and prominent colors.
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 ![preview](preview.png)
 
 ## Example
