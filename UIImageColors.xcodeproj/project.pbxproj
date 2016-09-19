@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B0E45B4F1D900D020033441A /* UIImageColorsSwift3.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E45B4D1D900D020033441A /* UIImageColorsSwift3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0E45B5B1D900D6D0033441A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B0E45B551D900D6D0033441A /* LICENSE */; };
+		B0E45B5C1D900D6D0033441A /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E45B561D900D6D0033441A /* preview.png */; };
+		B0E45B5D1D900D6D0033441A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0E45B571D900D6D0033441A /* README.md */; };
+		B0E45B5E1D900D6D0033441A /* UIImageColors.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B0E45B581D900D6D0033441A /* UIImageColors.podspec */; };
+		B0E45B5F1D900D6D0033441A /* UIImageColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E45B591D900D6D0033441A /* UIImageColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B0E45B4A1D900D020033441A /* UIImageColorsSwift3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageColorsSwift3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E45B4A1D900D020033441A /* UIImageColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E45B4D1D900D020033441A /* UIImageColorsSwift3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageColorsSwift3.h; sourceTree = "<group>"; };
 		B0E45B4E1D900D020033441A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E45B551D900D6D0033441A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B0E45B561D900D6D0033441A /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
+		B0E45B571D900D6D0033441A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B0E45B581D900D6D0033441A /* UIImageColors.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIImageColors.podspec; sourceTree = "<group>"; };
+		B0E45B591D900D6D0033441A /* UIImageColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageColors.swift; sourceTree = "<group>"; };
+		B0E45B5A1D900D6D0033441A /* UIImageColorsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIImageColorsPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +41,7 @@
 		B0E45B401D900D020033441A = {
 			isa = PBXGroup;
 			children = (
-				B0E45B4C1D900D020033441A /* UIImageColorsSwift3 */,
+				B0E45B4C1D900D020033441A /* UIImageColors */,
 				B0E45B4B1D900D020033441A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,17 +49,24 @@
 		B0E45B4B1D900D020033441A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0E45B4A1D900D020033441A /* UIImageColorsSwift3.framework */,
+				B0E45B4A1D900D020033441A /* UIImageColors.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0E45B4C1D900D020033441A /* UIImageColorsSwift3 */ = {
+		B0E45B4C1D900D020033441A /* UIImageColors */ = {
 			isa = PBXGroup;
 			children = (
+				B0E45B551D900D6D0033441A /* LICENSE */,
+				B0E45B561D900D6D0033441A /* preview.png */,
+				B0E45B571D900D6D0033441A /* README.md */,
+				B0E45B581D900D6D0033441A /* UIImageColors.podspec */,
+				B0E45B591D900D6D0033441A /* UIImageColors.swift */,
+				B0E45B5A1D900D6D0033441A /* UIImageColorsPlayground.playground */,
 				B0E45B4D1D900D020033441A /* UIImageColorsSwift3.h */,
 				B0E45B4E1D900D020033441A /* Info.plist */,
 			);
+			name = UIImageColors;
 			path = UIImageColorsSwift3;
 			sourceTree = "<group>";
 		};
@@ -66,9 +84,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B0E45B491D900D020033441A /* UIImageColorsSwift3 */ = {
+		B0E45B491D900D020033441A /* UIImageColors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0E45B521D900D020033441A /* Build configuration list for PBXNativeTarget "UIImageColorsSwift3" */;
+			buildConfigurationList = B0E45B521D900D020033441A /* Build configuration list for PBXNativeTarget "UIImageColors" */;
 			buildPhases = (
 				B0E45B451D900D020033441A /* Sources */,
 				B0E45B461D900D020033441A /* Frameworks */,
@@ -79,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = UIImageColorsSwift3;
+			name = UIImageColors;
 			productName = UIImageColorsSwift3;
-			productReference = B0E45B4A1D900D020033441A /* UIImageColorsSwift3.framework */;
+			productReference = B0E45B4A1D900D020033441A /* UIImageColors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -95,11 +113,12 @@
 				TargetAttributes = {
 					B0E45B491D900D020033441A = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = B0E45B441D900D020033441A /* Build configuration list for PBXProject "UIImageColorsSwift3" */;
+			buildConfigurationList = B0E45B441D900D020033441A /* Build configuration list for PBXProject "UIImageColors" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0E45B491D900D020033441A /* UIImageColorsSwift3 */,
+				B0E45B491D900D020033441A /* UIImageColors */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E45B5C1D900D6D0033441A /* preview.png in Resources */,
+				B0E45B5B1D900D6D0033441A /* LICENSE in Resources */,
+				B0E45B5E1D900D6D0033441A /* UIImageColors.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E45B5D1D900D6D0033441A /* README.md in Sources */,
+				B0E45B5F1D900D6D0033441A /* UIImageColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +263,7 @@
 		B0E45B531D900D020033441A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -250,6 +275,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cambridgeaudio.UIImageColorsSwift3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -257,6 +283,7 @@
 		B0E45B541D900D020033441A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,7 +302,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0E45B441D900D020033441A /* Build configuration list for PBXProject "UIImageColorsSwift3" */ = {
+		B0E45B441D900D020033441A /* Build configuration list for PBXProject "UIImageColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0E45B501D900D020033441A /* Debug */,
@@ -284,7 +311,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0E45B521D900D020033441A /* Build configuration list for PBXNativeTarget "UIImageColorsSwift3" */ = {
+		B0E45B521D900D020033441A /* Build configuration list for PBXNativeTarget "UIImageColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0E45B531D900D020033441A /* Debug */,

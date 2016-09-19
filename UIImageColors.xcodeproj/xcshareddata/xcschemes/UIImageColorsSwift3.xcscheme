@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B0E45B491D900D020033441A"
-               BuildableName = "UIImageColorsSwift3.framework"
-               BlueprintName = "UIImageColorsSwift3"
-               ReferencedContainer = "container:UIImageColorsSwift3.xcodeproj">
+               BuildableName = "UIImageColors.framework"
+               BlueprintName = "UIImageColors"
+               ReferencedContainer = "container:UIImageColors.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0E45B491D900D020033441A"
-            BuildableName = "UIImageColorsSwift3.framework"
-            BlueprintName = "UIImageColorsSwift3"
-            ReferencedContainer = "container:UIImageColorsSwift3.xcodeproj">
+            BuildableName = "UIImageColors.framework"
+            BlueprintName = "UIImageColors"
+            ReferencedContainer = "container:UIImageColors.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0E45B491D900D020033441A"
-            BuildableName = "UIImageColorsSwift3.framework"
-            BlueprintName = "UIImageColorsSwift3"
-            ReferencedContainer = "container:UIImageColorsSwift3.xcodeproj">
+            BuildableName = "UIImageColors.framework"
+            BlueprintName = "UIImageColors"
+            ReferencedContainer = "container:UIImageColors.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
