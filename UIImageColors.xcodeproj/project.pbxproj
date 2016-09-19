@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B0E45B4F1D900D020033441A /* UIImageColorsSwift3.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E45B4D1D900D020033441A /* UIImageColorsSwift3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0E45B5B1D900D6D0033441A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B0E45B551D900D6D0033441A /* LICENSE */; };
-		B0E45B5C1D900D6D0033441A /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E45B561D900D6D0033441A /* preview.png */; };
-		B0E45B5D1D900D6D0033441A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0E45B571D900D6D0033441A /* README.md */; };
 		B0E45B5E1D900D6D0033441A /* UIImageColors.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B0E45B581D900D6D0033441A /* UIImageColors.podspec */; };
 		B0E45B5F1D900D6D0033441A /* UIImageColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E45B591D900D6D0033441A /* UIImageColors.swift */; };
 /* End PBXBuildFile section */
@@ -19,9 +16,6 @@
 		B0E45B4A1D900D020033441A /* UIImageColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E45B4D1D900D020033441A /* UIImageColorsSwift3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageColorsSwift3.h; sourceTree = "<group>"; };
 		B0E45B4E1D900D020033441A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0E45B551D900D6D0033441A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B0E45B561D900D6D0033441A /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
-		B0E45B571D900D6D0033441A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B0E45B581D900D6D0033441A /* UIImageColors.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIImageColors.podspec; sourceTree = "<group>"; };
 		B0E45B591D900D6D0033441A /* UIImageColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageColors.swift; sourceTree = "<group>"; };
 		B0E45B5A1D900D6D0033441A /* UIImageColorsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIImageColorsPlayground.playground; sourceTree = "<group>"; };
@@ -57,9 +51,6 @@
 		B0E45B4C1D900D020033441A /* UIImageColors */ = {
 			isa = PBXGroup;
 			children = (
-				B0E45B551D900D6D0033441A /* LICENSE */,
-				B0E45B561D900D6D0033441A /* preview.png */,
-				B0E45B571D900D6D0033441A /* README.md */,
 				B0E45B581D900D6D0033441A /* UIImageColors.podspec */,
 				B0E45B591D900D6D0033441A /* UIImageColors.swift */,
 				B0E45B5A1D900D6D0033441A /* UIImageColorsPlayground.playground */,
@@ -140,8 +131,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E45B5C1D900D6D0033441A /* preview.png in Resources */,
-				B0E45B5B1D900D6D0033441A /* LICENSE in Resources */,
 				B0E45B5E1D900D6D0033441A /* UIImageColors.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E45B5D1D900D6D0033441A /* README.md in Sources */,
 				B0E45B5F1D900D6D0033441A /* UIImageColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
